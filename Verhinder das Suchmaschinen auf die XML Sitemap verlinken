@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+ <Files sitemap.xml>
+  Header set X-Robots-Tag "noindex"
+ </Files>
+</IfModule>
